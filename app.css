@@ -1,0 +1,60 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 200px;
+}
+.jp{
+    cursor:pointer;
+height: 150px;
+}
+.lo{
+    height: 80px;
+    width: 80px;
+
+}
+.slider{
+    display: flex;
+    transition: all 1s ease;
+   
+}
+.jp{
+    height: 80px;
+    width: 80px;
+
+
+}
+
+.frame{
+    width:800px;
+    height: 500px;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height:100%;
+}
+.button{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    border:1px solid white;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    gap:30px;
+
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
